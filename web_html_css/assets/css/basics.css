@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7b9acc;
+    padding: 20px 30px;
+    height: 10vh;
+    min-height: 80px;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#header img {
+    width: 10%;
+    min-width: 4rem;
+}
+
+.logo {
+    text-indent: 5px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    color: #FCF6F5;
+}
+
+.logo p {
+    align-self: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: #FCF6F5;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0, 5s ease;
+    border-radius: 7px;
+}
+
+.navbar a:last-of-type {
+    margin-right: 0;
+}
+
+.navbar .active {
+    background-color: #FCF6F5;
+    color: #7b9acc;
+}
+
+.navbar a:hover {
+    background-color: #FCF6F5;
+    color: #7b9acc;
+}
+
+#footer {
+    text-align: left;
+    background-color: #7b9acc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.footer_container p {
+    margin: 10px;
+}
+
+.footer_container {
+    display: block;
+    margin: 50px;
+    color: #FCF6F5;
+}
+
+.footer_navbar a {
+    color: #FCF6F5;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0, 5s ease;
+    border-radius: 7px;
+}
+
+
+.footer_navbar a:hover {
+    background-color: #FCF6F5;
+    color: #7b9acc;
+}
+
+.footer_navbar .active {
+    background-color: #FCF6F5;
+    color: #7b9acc;
+}
+
+.newsletter_footer {
+    display: block;
+    color: #FCF6F5;
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    margin: 2rem 0 0 0;
+}
+
+.newsletter-text {
+    text-align: left;
+    width: 20rem;
+}
+
+.newsletter-form {
+    display: block;
+    width: 10rem;
+    margin-top: 0.5rem;
+}
+
+.newsletter-form input {
+    width: 18rem;
+    padding: 12px 20px;
+    margin: 6px 0;
+    height: 3rem;
+    box-sizing: border-box;
+}
+
+#footer button {
+    margin-top: 7px;
+    background-color: #FCF6F5;
+    border: none;
+    border-radius: 7px;
+    color: #7b9acc;
+    padding: 12px 15px;
+    width: 18rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#footer button:hover {
+    opacity: 1;
+}

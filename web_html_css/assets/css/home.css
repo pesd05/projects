@@ -1,0 +1,35 @@
+#intro-image-home {
+    background-image: url(../img/img_home.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #47546e;
+    background-blend-mode: soft-light;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    text-align: center;
+}
+
+.intro-text-home {
+    color: #FCF6F5;
+}
+
+#intro-image-home h1 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#intro-image-home h3 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+}
+
+#intro-image-home h2 a {
+    color: #FCF6F5;
+}
+

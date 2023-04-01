@@ -1,0 +1,158 @@
+#intro-image-about {
+    background-image: url(../img/img_about.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #47546e;
+    background-blend-mode: soft-light;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    text-align: center;
+}
+
+.intro-text-about {
+    color: #FCF6F5;
+}
+
+#intro-image-about h1 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#intro-image-about h3 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+}
+
+#history {
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#history h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: "Anton";
+    font-weight: lighter;
+    font-size: xx-large;
+    color: #7b9acc;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    color: #7b9acc;
+    border-style: solid;
+}
+
+#founders {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#founders h3 {
+    color: #7b9acc;
+    font-family: "Anton";
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    justify-content: center;
+    background-color: #7b9acc;
+    width: 70%;
+    align-items: center;
+}
+  
+  .container img {
+    width: 40%;
+    border-radius: 7px;
+    margin: 20px;
+}
+  
+  .miki-text {
+    width: 40%;
+    border-radius: 7px;
+    margin-right: 1rem;
+    color: #FCF6F5;
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .miki-text h4 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: "Anton";
+    font-size: xx-large;
+  }
+  
+  .miki-text p {
+    margin-bottom: 1rem;
+  }
+
+  .dani-text {
+    width: 40%;
+    text-align: right;
+    border-radius: 7px;
+    margin-left: 1rem;
+    color: #FCF6F5;
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .dani-text h4 {
+    text-align: right;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: "Anton";
+    font-size: xx-large;
+  }
+  
+  .dani-text p {
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 1100px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+  
+    .container img {
+      width: 60%;
+    }
+  
+    .miki-text {
+      margin-bottom: 1rem;
+      width: 60%;
+    }
+
+    .dani-text {
+        margin-bottom: 1rem;
+        width: 60%;
+    }
+  }
+  
+  

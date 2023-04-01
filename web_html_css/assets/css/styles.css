@@ -1,0 +1,140 @@
+#intro-image-styles {
+    background-image: url(../img/img_styles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #47546e;
+    background-blend-mode: soft-light;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    text-align: center;
+}
+
+.intro-text-styles {
+    color: #FCF6F5;
+}
+
+#intro-image-styles h1 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#intro-image-styles h3 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    justify-content: center;
+    background-color: #7b9acc;
+    width: 70%;
+    align-items: center;
+}
+  
+.container img {
+    width: 40%;
+    border-radius: 7px;
+    margin: 20px;
+}
+  
+  .text2 {
+    width: 40%;
+    border-radius: 7px;
+    margin-right: 1rem;
+    color: #FCF6F5;
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .text2 h3 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: "Anton";
+    font-size: xx-large;
+  }
+  
+  .text2 p {
+    margin-bottom: 1rem;
+  }
+
+  .text1 {
+    width: 40%;
+    text-align: right;
+    border-radius: 7px;
+    margin-left: 1rem;
+    color: #FCF6F5;
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .text1 h3 {
+    text-align: right;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: "Anton";
+    font-size: xx-large;
+  }
+  
+  .text1 p {
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 1100px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+  
+    .container img {
+      width: 60%;
+    }
+  
+    .text2 {
+      margin-bottom: 1rem;
+      width: 60%;
+    }
+
+    .text1 {
+        margin-bottom: 1rem;
+        width: 60%;
+    }
+  }
+
+  .buttonMore {
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    justify-content: center;
+    background-color: #7b9acc;
+    width: 20%;
+    color: #FCF6F5;
+    opacity: 0.9;
+    cursor: pointer;
+    font-size: large;
+    border: none;
+}
+
+.buttonMore a {
+    text-decoration: none;
+    color: #FCF6F5;
+}
+
+.buttonMore:hover {
+    opacity: 1;
+} 
