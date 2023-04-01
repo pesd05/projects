@@ -1,0 +1,153 @@
+* {
+  color: #000 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#header, 
+#footer,
+#intro-image-home h2,
+.container img
+{
+  display: none;
+}
+
+#intro-image-home #intro-image-about #intro-image-styles
+#intro-image-instructors #intro-image-contact #intro-image-register
+{
+  background-image: none;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-text-home .intro-text-about .intro-text-styles
+.intro-text-instructors .intro-text-contact .intro-text-register
+{
+  padding: 0;
+  margin: 0;
+}
+
+#history,
+#founders
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.history-text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+#founders p {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.miki-text,
+.dani-text,
+.history-text {
+  width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+h3 {
+  text-align: left;
+  margin-left: 1rem;
+} 
+
+h4 {
+  text-align: left;
+} 
+
+.dani-text h4 {
+  text-align: left;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.intro img {
+  display: none;
+}
+
+.text1,
+.text2 {
+  text-align: left;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.text1 h3,
+.text2 h3 {
+  text-align: left;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.text1 p,
+.text2 p {
+  text-align: left;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.buttonMore {
+  display: none;
+} 
+
+.contact-info {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+#contact iframe {
+  display: none;
+}
+
+.contact-info-text {
+  width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+#register {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.signUp {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.buttonS {
+  display: none;
+}
+
+.register-form p {
+  display: none;
+}

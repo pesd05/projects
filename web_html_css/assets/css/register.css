@@ -1,0 +1,88 @@
+#intro-image-register {
+    background-image: url(../img/img_join.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #47546e;
+    background-blend-mode: soft-light;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    text-align: center;
+}
+
+.intro-text-register {
+    color: #FCF6F5;
+}
+
+#intro-image-register h1 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#intro-image-register h3 {
+    padding: 10px;
+    color: #FCF6F5;
+    text-align: center;
+}
+
+#register {
+    display: block;
+    margin: auto;
+    width: 25rem;
+    box-sizing: border-box;
+}
+
+.signUp {
+    margin: 3rem;
+    text-align: center;
+    width: 25rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.signUp h3 {
+    font-family: "Anton";
+    font-size: xx-large;
+    color: #7b9acc;
+}
+
+
+.input-register input {
+    width: 25rem;
+    height: 3rem;
+    margin: 0.5rem 0rem;
+    border: 1px solid #7b9acc;
+    border-radius: 7px;
+    padding: 1.5rem;
+}
+
+.buttonS button {
+    margin-top: 1rem;
+    background-color: #7b9acc;
+    border-radius: 7px;
+    border: none;
+    color: #FCF6F5;
+    padding: 12px 15px;
+    width: 25rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.buttonS button:hover {
+    opacity: 1;
+}
+
+.register-form p {
+    margin: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
